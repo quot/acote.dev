@@ -1,9 +1,20 @@
 html {
-    background-color: azure;   
+    display: table;
+    margin: auto;
+    margin-top: 35px;
+    background-color: #F0F0F0;
 }
 
 body {
-    vertical-align: center;
-    color: dimgrey;
+    display: table-cell;
+    color: darkslategray;
     font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
