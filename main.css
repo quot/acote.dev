@@ -18,3 +18,9 @@ p {
 h2 {
     text-align: center;
 }
+
+div {
+    margin-top: 100;
+    display: flex;
+    justify-content: center;
+}
