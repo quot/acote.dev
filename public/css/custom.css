@@ -1,0 +1,35 @@
+body {
+	background-color: #494F5C
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #c6cddb
+}
+
+a i, a i,
+.list ul li .title,
+.list ul li .date,
+.navigation a, .navigation a,
+.footer,
+article {
+	font-family: Lato, Helvetica, sans-serif;
+	color: #c6cddb;
+	transition-property: color;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.footer {
+	font-size: 1.15rem;
+}
+
+a i:hover, a i:focus,
+.navigation a:hover, .navigation a:focus,
+.list ul li .title:hover, .list ul li .title:focus,
+.footer a, article a {
+	color:#fff
+}
+
+.navigation .navigation-title {
+	text-transform: none;
+}

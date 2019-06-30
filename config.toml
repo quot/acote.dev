@@ -1,0 +1,69 @@
+baseurl = "http://alxxlc.github.io"
+title = "Alex Coté has a website"
+headertitle = "Alex Coté"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Alex Coté"
+    info = "Making computers say \"Hello World\" since 2008"
+    description = "Alex Coté's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "/images/Glider_Outline_Transparent.png"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/alxxlc/"
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/alexcote-/"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-2x"
+    weight = 1
+    url = "mailto:alex.cote@tuta.io"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/_alex_cote/"
+
+# Menu links
+[[menu.main]]
+    name = "Projects"
+    weight = 2
+    url = "/projects/"
+[[menu.main]]
+    name = "Writings"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About Me"
+    weight = 2
+    url = "/about/"
